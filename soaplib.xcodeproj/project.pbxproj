@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEFF4B4B3DC9E64F728601D1 /* libPods-soaplibTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E6285F76B1857DDC1FBEA7 /* libPods-soaplibTests.a */; };
 		B8AE9D8F22C3B0D5008B88A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE9D8E22C3B0D5008B88A1 /* AppDelegate.m */; };
 		B8AE9D9222C3B0D5008B88A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE9D9122C3B0D5008B88A1 /* ViewController.m */; };
 		B8AE9D9522C3B0D5008B88A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AE9D9322C3B0D5008B88A1 /* Main.storyboard */; };
@@ -15,6 +16,15 @@
 		B8AE9D9D22C3B0D5008B88A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE9D9C22C3B0D5008B88A1 /* main.m */; };
 		B8AE9DA722C3B0D6008B88A1 /* soaplibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE9DA622C3B0D6008B88A1 /* soaplibTests.m */; };
 		B8AE9DB222C3B0D6008B88A1 /* soaplibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE9DB122C3B0D6008B88A1 /* soaplibUITests.m */; };
+		B8AE9DCB22C3B118008B88A1 /* RVSoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE9DC122C3B118008B88A1 /* RVSoapRequest.m */; };
+		B8AE9DCC22C3B118008B88A1 /* RVSoap.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE9DC222C3B118008B88A1 /* RVSoap.m */; };
+		B8AE9DCD22C3B118008B88A1 /* RVSoapResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE9DC422C3B118008B88A1 /* RVSoapResponseParser.m */; };
+		B8AE9DCE22C3B118008B88A1 /* RVXml.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE9DC922C3B118008B88A1 /* RVXml.m */; };
+		B8AE9DD022C3B134008B88A1 /* RVSoap.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = B8AE9DCF22C3B133008B88A1 /* RVSoap.podspec.json */; };
+		B8AE9DD222C3B192008B88A1 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = B8AE9DD122C3B192008B88A1 /* readme.md */; };
+		B8AE9DD422C3B198008B88A1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B8AE9DD322C3B198008B88A1 /* LICENSE */; };
+		B8AE9DD622C3B1B9008B88A1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B8AE9DD522C3B1B9008B88A1 /* Podfile */; };
+		F46CCC2C28340F96096A0373 /* libPods-soaplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE20AA959F9D289E5ECA0B3A /* libPods-soaplib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BBB6123C09539B7B5A16DD1 /* Pods-soaplibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soaplibTests.release.xcconfig"; path = "Target Support Files/Pods-soaplibTests/Pods-soaplibTests.release.xcconfig"; sourceTree = "<group>"; };
+		46F7A8872D197C27AD5D4515 /* Pods-soaplib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soaplib.debug.xcconfig"; path = "Target Support Files/Pods-soaplib/Pods-soaplib.debug.xcconfig"; sourceTree = "<group>"; };
+		74AF3780C75E058F52356A08 /* Pods-soaplib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soaplib.release.xcconfig"; path = "Target Support Files/Pods-soaplib/Pods-soaplib.release.xcconfig"; sourceTree = "<group>"; };
+		82E0757E4703C25C16B7445D /* Pods-soaplibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soaplibTests.debug.xcconfig"; path = "Target Support Files/Pods-soaplibTests/Pods-soaplibTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8AE9D8A22C3B0D5008B88A1 /* soaplib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soaplib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AE9D8D22C3B0D5008B88A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8AE9D8E22C3B0D5008B88A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +65,20 @@
 		B8AE9DAD22C3B0D6008B88A1 /* soaplibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soaplibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AE9DB122C3B0D6008B88A1 /* soaplibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = soaplibUITests.m; sourceTree = "<group>"; };
 		B8AE9DB322C3B0D6008B88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8AE9DC122C3B118008B88A1 /* RVSoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVSoapRequest.m; sourceTree = "<group>"; };
+		B8AE9DC222C3B118008B88A1 /* RVSoap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVSoap.m; sourceTree = "<group>"; };
+		B8AE9DC422C3B118008B88A1 /* RVSoapResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVSoapResponseParser.m; sourceTree = "<group>"; };
+		B8AE9DC522C3B118008B88A1 /* RVSoapResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVSoapResponseParser.h; sourceTree = "<group>"; };
+		B8AE9DC622C3B118008B88A1 /* RVSoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVSoapRequest.h; sourceTree = "<group>"; };
+		B8AE9DC722C3B118008B88A1 /* RVSoap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVSoap.h; sourceTree = "<group>"; };
+		B8AE9DC922C3B118008B88A1 /* RVXml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVXml.m; sourceTree = "<group>"; };
+		B8AE9DCA22C3B118008B88A1 /* RVXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVXml.h; sourceTree = "<group>"; };
+		B8AE9DCF22C3B133008B88A1 /* RVSoap.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RVSoap.podspec.json; sourceTree = SOURCE_ROOT; };
+		B8AE9DD122C3B192008B88A1 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = SOURCE_ROOT; };
+		B8AE9DD322C3B198008B88A1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		B8AE9DD522C3B1B9008B88A1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6E6285F76B1857DDC1FBEA7 /* libPods-soaplibTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-soaplibTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE20AA959F9D289E5ECA0B3A /* libPods-soaplib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-soaplib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46CCC2C28340F96096A0373 /* libPods-soaplib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFF4B4B3DC9E64F728601D1 /* libPods-soaplibTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +108,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9858AC72EDE7C9A8119AA35F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46F7A8872D197C27AD5D4515 /* Pods-soaplib.debug.xcconfig */,
+				74AF3780C75E058F52356A08 /* Pods-soaplib.release.xcconfig */,
+				82E0757E4703C25C16B7445D /* Pods-soaplibTests.debug.xcconfig */,
+				1BBB6123C09539B7B5A16DD1 /* Pods-soaplibTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B8AE9D8122C3B0D5008B88A1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				B8AE9DA522C3B0D5008B88A1 /* soaplibTests */,
 				B8AE9DB022C3B0D6008B88A1 /* soaplibUITests */,
 				B8AE9D8B22C3B0D5008B88A1 /* Products */,
+				9858AC72EDE7C9A8119AA35F /* Pods */,
+				FA7BA5FE3C858A97B0B7FA4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +144,11 @@
 		B8AE9D8C22C3B0D5008B88A1 /* soaplib */ = {
 			isa = PBXGroup;
 			children = (
+				B8AE9DD522C3B1B9008B88A1 /* Podfile */,
+				B8AE9DD322C3B198008B88A1 /* LICENSE */,
+				B8AE9DD122C3B192008B88A1 /* readme.md */,
+				B8AE9DCF22C3B133008B88A1 /* RVSoap.podspec.json */,
+				B8AE9DBF22C3B0DB008B88A1 /* src */,
 				B8AE9D8D22C3B0D5008B88A1 /* AppDelegate.h */,
 				B8AE9D8E22C3B0D5008B88A1 /* AppDelegate.m */,
 				B8AE9D9022C3B0D5008B88A1 /* ViewController.h */,
@@ -132,6 +180,54 @@
 			path = soaplibUITests;
 			sourceTree = "<group>";
 		};
+		B8AE9DBF22C3B0DB008B88A1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B8AE9DC022C3B118008B88A1 /* RVSoap */,
+				B8AE9DC822C3B118008B88A1 /* RVXml */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B8AE9DC022C3B118008B88A1 /* RVSoap */ = {
+			isa = PBXGroup;
+			children = (
+				B8AE9DC122C3B118008B88A1 /* RVSoapRequest.m */,
+				B8AE9DC222C3B118008B88A1 /* RVSoap.m */,
+				B8AE9DC322C3B118008B88A1 /* ResponseParser */,
+				B8AE9DC622C3B118008B88A1 /* RVSoapRequest.h */,
+				B8AE9DC722C3B118008B88A1 /* RVSoap.h */,
+			);
+			path = RVSoap;
+			sourceTree = "<group>";
+		};
+		B8AE9DC322C3B118008B88A1 /* ResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				B8AE9DC422C3B118008B88A1 /* RVSoapResponseParser.m */,
+				B8AE9DC522C3B118008B88A1 /* RVSoapResponseParser.h */,
+			);
+			path = ResponseParser;
+			sourceTree = "<group>";
+		};
+		B8AE9DC822C3B118008B88A1 /* RVXml */ = {
+			isa = PBXGroup;
+			children = (
+				B8AE9DC922C3B118008B88A1 /* RVXml.m */,
+				B8AE9DCA22C3B118008B88A1 /* RVXml.h */,
+			);
+			path = RVXml;
+			sourceTree = "<group>";
+		};
+		FA7BA5FE3C858A97B0B7FA4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE20AA959F9D289E5ECA0B3A /* libPods-soaplib.a */,
+				C6E6285F76B1857DDC1FBEA7 /* libPods-soaplibTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8AE9DB622C3B0D6008B88A1 /* Build configuration list for PBXNativeTarget "soaplib" */;
 			buildPhases = (
+				20E968226EC09565270CEAEE /* [CP] Check Pods Manifest.lock */,
 				B8AE9D8622C3B0D5008B88A1 /* Sources */,
 				B8AE9D8722C3B0D5008B88A1 /* Frameworks */,
 				B8AE9D8822C3B0D5008B88A1 /* Resources */,
@@ -156,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8AE9DB922C3B0D6008B88A1 /* Build configuration list for PBXNativeTarget "soaplibTests" */;
 			buildPhases = (
+				D43FA5D9E33F661E50620ECB /* [CP] Check Pods Manifest.lock */,
 				B8AE9D9E22C3B0D5008B88A1 /* Sources */,
 				B8AE9D9F22C3B0D5008B88A1 /* Frameworks */,
 				B8AE9DA022C3B0D5008B88A1 /* Resources */,
@@ -235,8 +333,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8AE9DD422C3B198008B88A1 /* LICENSE in Resources */,
 				B8AE9D9A22C3B0D5008B88A1 /* LaunchScreen.storyboard in Resources */,
 				B8AE9D9722C3B0D5008B88A1 /* Assets.xcassets in Resources */,
+				B8AE9DD022C3B134008B88A1 /* RVSoap.podspec.json in Resources */,
+				B8AE9DD222C3B192008B88A1 /* readme.md in Resources */,
+				B8AE9DD622C3B1B9008B88A1 /* Podfile in Resources */,
 				B8AE9D9522C3B0D5008B88A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +359,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20E968226EC09565270CEAEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-soaplib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43FA5D9E33F661E50620ECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-soaplibTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8AE9D8622C3B0D5008B88A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +413,11 @@
 			files = (
 				B8AE9D9222C3B0D5008B88A1 /* ViewController.m in Sources */,
 				B8AE9D9D22C3B0D5008B88A1 /* main.m in Sources */,
+				B8AE9DCD22C3B118008B88A1 /* RVSoapResponseParser.m in Sources */,
+				B8AE9DCB22C3B118008B88A1 /* RVSoapRequest.m in Sources */,
 				B8AE9D8F22C3B0D5008B88A1 /* AppDelegate.m in Sources */,
+				B8AE9DCC22C3B118008B88A1 /* RVSoap.m in Sources */,
+				B8AE9DCE22C3B118008B88A1 /* RVXml.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +586,7 @@
 		};
 		B8AE9DB722C3B0D6008B88A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F7A8872D197C27AD5D4515 /* Pods-soaplib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +603,7 @@
 		};
 		B8AE9DB822C3B0D6008B88A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74AF3780C75E058F52356A08 /* Pods-soaplib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +620,7 @@
 		};
 		B8AE9DBA22C3B0D6008B88A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E0757E4703C25C16B7445D /* Pods-soaplibTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +639,7 @@
 		};
 		B8AE9DBB22C3B0D6008B88A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBB6123C09539B7B5A16DD1 /* Pods-soaplibTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

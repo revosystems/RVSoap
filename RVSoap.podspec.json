@@ -1,0 +1,35 @@
+{
+    "name": "RVSoap",
+    "version": "1.0",
+    "summary": "Soap helpers",
+    "license": "MIT",
+    "platforms": {
+        "ios": "9.3",
+        "osx": "10.9"
+    },
+    "dependencies":{
+        "Collection": [
+            
+        ],
+        "RVHttp": [
+            
+        ],
+        "RVXMLDictionary":[
+            
+        ],
+    },
+    "source": {
+        "git": "https://github.com/revosystems/RVSoap.git",
+        "tag": "1.0"
+    },
+    "description": "Soap library that create soap requests and allows to parse soap responses",
+    "homepage": "https://github.com/revosystems/RVSoap.git",
+    "license": "MIT",
+    "authors": {
+        "Pau Benet": "pau@revo.works"
+    },
+    "source_files": [
+        "soaplib/src/**/*"
+    ],
+    "requires_arc": true
+}

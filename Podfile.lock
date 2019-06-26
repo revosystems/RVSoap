@@ -1,0 +1,25 @@
+PODS:
+  - Collection (1.10.17)
+  - RVHttp (1.2.10):
+    - Collection
+  - RVXMLDictionary (1.5)
+
+DEPENDENCIES:
+  - Collection
+  - RVHttp
+  - RVXMLDictionary
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Collection
+    - RVHttp
+    - RVXMLDictionary
+
+SPEC CHECKSUMS:
+  Collection: 05e9dffd34b431b1327c8e491f645955159e176d
+  RVHttp: 6d93afcf0fb88e41d114f395274433259261ff52
+  RVXMLDictionary: 3429978f3fbe6d7a6a456fe8b462c4395bc495c3
+
+PODFILE CHECKSUM: 7104f623a662f0637f9d066384b067cd304dabb2
+
+COCOAPODS: 1.6.1

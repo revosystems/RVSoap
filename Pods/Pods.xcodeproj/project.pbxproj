@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0428B041DA25E60B9A3A066AE42646C4 /* NSArray+HighOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAF52A2C4D29484AB96A91C615896D4 /* NSArray+HighOrder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07DA1339A33D941DF05A90461DA8F631 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6733C0E583501DC55CA2EFA236B55D31 /* XMLDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1787DBFD59A5F3CEE5C1FD9DE185B3A5 /* RVHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C96E491949F6299B4C03B599630DEAD /* RVHttpResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CD5CCF767B105A4A538364261526816 /* RVHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDACEA99ADE06D30AC8FE5339E792B91 /* RVHttpResponse.m */; };
+		21E04462F6C7FAC9D24F52AC448DF386 /* RVFakeUrlSessionDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BECB59F2CF8FBBE0526EAB27795EA527 /* RVFakeUrlSessionDataTask.m */; };
+		35224F875FDE7CB21786B47C90C627E0 /* RVHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 402D60E90DC57B40F0885A400CBA63D7 /* RVHttp.m */; };
+		3AB82560B139DD5EE7702776CFB00132 /* NSCountedSet+Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = DA69DF5F10243084166BCFE1509D3503 /* NSCountedSet+Collection.m */; };
+		3B2DCBC44B17A4E1EA3DD0227C2ABA72 /* RVHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 95868E591C32B79D6B63E94E2E682238 /* RVHttpRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B68F3AFD19D727A5EF031D53361A2E2 /* RVFakeUrlSession.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6280834FDF754F48373D16F1F73903 /* RVFakeUrlSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4548DDCE9DBD8D68113882F0E143E7E0 /* Collection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1B9BB819B20FE699A4DB3E86A794F5 /* Collection-dummy.m */; };
+		4ACD33ED74AE8AB6EC246ED408F83997 /* NSDictionary+Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = 639B2569F715979989CE6EE08FE228EA /* NSDictionary+Collection.m */; };
+		5D607FE633B35AEB003EBDCD6FC4DE66 /* RVHttpFake.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A75BEBA19023096A834E22BB43504 /* RVHttpFake.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64BAF6DA578E434C14EC15ADC8DA0093 /* RVHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A82F6D39F0A06B465951ED1FA13A3A4 /* RVHttp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72901004CF5D13198C2B54E6441BEE1D /* RVCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D88E2172F1654981DE79320F77222C /* RVCollection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7483673677356C1E2BE0D6A580F306FB /* NSDictionary+Collection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE8207F5982D48AF8964C5FCB3B8FCA /* NSDictionary+Collection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A76934C8E8302C8698B6FAC38B4CD56 /* Pods-soaplib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0219E0F779B7BCF3430AC226FFC735F1 /* Pods-soaplib-dummy.m */; };
+		7E7E152AFAF1EFE91B84F5267F1EA42A /* NSCountedSet+Collection.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BBF7147771C7CC7A83D966E462993F /* NSCountedSet+Collection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84765D9642A64844DD684695E1A9F5C7 /* Pods-soaplibTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD865977AE66EB11798F2516FF8E4C3 /* Pods-soaplibTests-dummy.m */; };
+		8FE20B79B030A92F3A3D25F0112A9107 /* NSString+Collection.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E38400BFBE19676182DAC0A21750CB /* NSString+Collection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A61F64D9DBFC06A2F7C5BD4B24B02248 /* RVFakeUrlSessionDataTask.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F68E8E6C3EBC99777E3CDBA313E1F5 /* RVFakeUrlSessionDataTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE4E50C7DD76AB264A7A380ECEFA7701 /* RVXMLDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A838C5681EF66680B8A19325367C0F7 /* RVXMLDictionary-dummy.m */; };
+		B5C3039C91E2B4DE14515739980656FF /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF57B7FE4D1E46EFE481F871737CB39 /* XMLDictionary.m */; };
+		B96026533D70CD452CFACDE61F373209 /* NSArray+HighOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E60110670848F37F9D7270C8F55FB35F /* NSArray+HighOrder.m */; };
+		C53FCF24253FA0DCF7F5CE67476AA887 /* NSArray+Collection.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FA23901330DB0942E7154AC58FB182 /* NSArray+Collection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C557750FC006B39B88753B590963D4D0 /* NSArray+Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = C263BDA2CF3B6243FA15F53F66DB3993 /* NSArray+Collection.m */; };
+		D25DCFD4C9E9468A381E6F71644D930F /* RVHttp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66043DE64BCB86094FAE4A06FD0E0350 /* RVHttp-dummy.m */; };
+		E2EE78D39A05DAE014D6C528D6990DC8 /* RVHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA72128247473CBB148B24BC5E1AA13 /* RVHttpRequest.m */; };
+		E562F843FCE9972669F23F7CB2DF8D45 /* NSString+Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1B40ADCF9A285E6022C51C86A4159 /* NSString+Collection.m */; };
+		F1788E7511465624FD9834729C5565E9 /* RVFakeUrlSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 660D62BE59246B457FBB3A638A760AB8 /* RVFakeUrlSession.m */; };
+		F5C3A96B0A945CF292BEEBA37F337396 /* RVHttpFake.m in Sources */ = {isa = PBXBuildFile; fileRef = A73FEE2BC1CAB1ED4FD7BF8C3420D0BF /* RVHttpFake.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26535585C95733FD95460EAAC7F47BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDB6B2B4A5C4CF6FCB626693A04E76E;
+			remoteInfo = RVXMLDictionary;
+		};
+		732FB2C96DF757B163D8BD3F41F6D288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264072C0A2355E7C36D3B2C8EAB09612;
+			remoteInfo = Collection;
+		};
+		C1930029E7001E5F8748B5F46C5CB299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264072C0A2355E7C36D3B2C8EAB09612;
+			remoteInfo = Collection;
+		};
+		DA7A1F5C5B9A98EE648A7305E5A645DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5AF8F7AB781764DD25905D0EC63204;
+			remoteInfo = RVHttp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0219E0F779B7BCF3430AC226FFC735F1 /* Pods-soaplib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-soaplib-dummy.m"; sourceTree = "<group>"; };
+		0677D0CA9FB34D4A4484AEBCAD3BC7E6 /* libPods-soaplib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-soaplib.a"; path = "libPods-soaplib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D88E2172F1654981DE79320F77222C /* RVCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RVCollection.h; path = Collection/Categories/RVCollection.h; sourceTree = "<group>"; };
+		1A82F6D39F0A06B465951ED1FA13A3A4 /* RVHttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RVHttp.h; path = RVHttp/lib/RVHttp.h; sourceTree = "<group>"; };
+		2EA156887D6D70C8D9A07780E612FC98 /* libRVHttp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRVHttp.a; path = libRVHttp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BBF7147771C7CC7A83D966E462993F /* NSCountedSet+Collection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCountedSet+Collection.h"; path = "Collection/Categories/NSCountedSet+Collection/NSCountedSet+Collection.h"; sourceTree = "<group>"; };
+		3B416BAE96F757407347C0CEA9B57DF2 /* RVHttp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVHttp.xcconfig; sourceTree = "<group>"; };
+		3CE8207F5982D48AF8964C5FCB3B8FCA /* NSDictionary+Collection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Collection.h"; path = "Collection/Categories/NSDictionary+Collection/NSDictionary+Collection.h"; sourceTree = "<group>"; };
+		402D60E90DC57B40F0885A400CBA63D7 /* RVHttp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RVHttp.m; path = RVHttp/lib/RVHttp.m; sourceTree = "<group>"; };
+		4C96E491949F6299B4C03B599630DEAD /* RVHttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RVHttpResponse.h; path = RVHttp/lib/Response/RVHttpResponse.h; sourceTree = "<group>"; };
+		4CD865977AE66EB11798F2516FF8E4C3 /* Pods-soaplibTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-soaplibTests-dummy.m"; sourceTree = "<group>"; };
+		51E75C36B7D336053F8195A7C5DE0C2F /* RVHttp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVHttp-prefix.pch"; sourceTree = "<group>"; };
+		544D89CD284F1BC4555DE506D55E5A36 /* Collection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Collection.xcconfig; sourceTree = "<group>"; };
+		55FA23901330DB0942E7154AC58FB182 /* NSArray+Collection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Collection.h"; path = "Collection/Categories/NSArray+Collection/NSArray+Collection.h"; sourceTree = "<group>"; };
+		5C6AA7347D6F8656D58D9E15453A19A5 /* RVXMLDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVXMLDictionary.xcconfig; sourceTree = "<group>"; };
+		5CBB9CD859D6A1113692CCA7F0A3DAAC /* libCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCollection.a; path = libCollection.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		639B2569F715979989CE6EE08FE228EA /* NSDictionary+Collection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Collection.m"; path = "Collection/Categories/NSDictionary+Collection/NSDictionary+Collection.m"; sourceTree = "<group>"; };
+		641FA9A3B8CB44DF8D8AF83AF045CB0C /* Collection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Collection-prefix.pch"; sourceTree = "<group>"; };
+		66043DE64BCB86094FAE4A06FD0E0350 /* RVHttp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RVHttp-dummy.m"; sourceTree = "<group>"; };
+		660D62BE59246B457FBB3A638A760AB8 /* RVFakeUrlSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RVFakeUrlSession.m; path = RVHttp/lib/FakeUrlSession/RVFakeUrlSession.m; sourceTree = "<group>"; };
+		6733C0E583501DC55CA2EFA236B55D31 /* XMLDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMLDictionary.h; path = XMLDictionary/XMLDictionary.h; sourceTree = "<group>"; };
+		68E38400BFBE19676182DAC0A21750CB /* NSString+Collection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Collection.h"; path = "Collection/Categories/NSString+Collection/NSString+Collection.h"; sourceTree = "<group>"; };
+		6CA72128247473CBB148B24BC5E1AA13 /* RVHttpRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RVHttpRequest.m; path = RVHttp/lib/RVHttpRequest.m; sourceTree = "<group>"; };
+		8B849B56797C26696D6B1DFF4488E5DF /* Pods-soaplibTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-soaplibTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F44A93A67579E156C215094D5897634 /* Pods-soaplibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-soaplibTests.release.xcconfig"; sourceTree = "<group>"; };
+		95868E591C32B79D6B63E94E2E682238 /* RVHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RVHttpRequest.h; path = RVHttp/lib/RVHttpRequest.h; sourceTree = "<group>"; };
+		9A838C5681EF66680B8A19325367C0F7 /* RVXMLDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RVXMLDictionary-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAF52A2C4D29484AB96A91C615896D4 /* NSArray+HighOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+HighOrder.h"; path = "Collection/Categories/NSArray+HighOrder/NSArray+HighOrder.h"; sourceTree = "<group>"; };
+		A6CB0D66F0A8E2CD38206BE5955DC878 /* libRVXMLDictionary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRVXMLDictionary.a; path = libRVXMLDictionary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73FEE2BC1CAB1ED4FD7BF8C3420D0BF /* RVHttpFake.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RVHttpFake.m; path = RVHttp/lib/Fake/RVHttpFake.m; sourceTree = "<group>"; };
+		A9D1B40ADCF9A285E6022C51C86A4159 /* NSString+Collection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Collection.m"; path = "Collection/Categories/NSString+Collection/NSString+Collection.m"; sourceTree = "<group>"; };
+		ACD720B3E303BEDC654CE4DC5B5FA519 /* Pods-soaplibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-soaplibTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD19097E95CBD0BECA0DA4B19AC92EF0 /* RVXMLDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVXMLDictionary-prefix.pch"; sourceTree = "<group>"; };
+		B9F68E8E6C3EBC99777E3CDBA313E1F5 /* RVFakeUrlSessionDataTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RVFakeUrlSessionDataTask.h; path = RVHttp/lib/FakeUrlSession/RVFakeUrlSessionDataTask.h; sourceTree = "<group>"; };
+		BECB59F2CF8FBBE0526EAB27795EA527 /* RVFakeUrlSessionDataTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RVFakeUrlSessionDataTask.m; path = RVHttp/lib/FakeUrlSession/RVFakeUrlSessionDataTask.m; sourceTree = "<group>"; };
+		C263BDA2CF3B6243FA15F53F66DB3993 /* NSArray+Collection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Collection.m"; path = "Collection/Categories/NSArray+Collection/NSArray+Collection.m"; sourceTree = "<group>"; };
+		C2B2F6B8FB2D552D4D8FFD0A058BE0D5 /* Pods-soaplib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-soaplib-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D009EC637658A8BD4567988CE64FD1FB /* Pods-soaplibTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-soaplibTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA69DF5F10243084166BCFE1509D3503 /* NSCountedSet+Collection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCountedSet+Collection.m"; path = "Collection/Categories/NSCountedSet+Collection/NSCountedSet+Collection.m"; sourceTree = "<group>"; };
+		DDC97B81B346735037E7442CCAADAEC9 /* Pods-soaplib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-soaplib-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE77B606E1259770C85606B1E3EAD994 /* Pods-soaplib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-soaplib.debug.xcconfig"; sourceTree = "<group>"; };
+		DEF57B7FE4D1E46EFE481F871737CB39 /* XMLDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMLDictionary.m; path = XMLDictionary/XMLDictionary.m; sourceTree = "<group>"; };
+		DF1B9BB819B20FE699A4DB3E86A794F5 /* Collection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Collection-dummy.m"; sourceTree = "<group>"; };
+		E60110670848F37F9D7270C8F55FB35F /* NSArray+HighOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HighOrder.m"; path = "Collection/Categories/NSArray+HighOrder/NSArray+HighOrder.m"; sourceTree = "<group>"; };
+		EDACEA99ADE06D30AC8FE5339E792B91 /* RVHttpResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RVHttpResponse.m; path = RVHttp/lib/Response/RVHttpResponse.m; sourceTree = "<group>"; };
+		EE225A111D2339B175D94EDF98B93E24 /* Pods-soaplib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-soaplib.release.xcconfig"; sourceTree = "<group>"; };
+		EE6280834FDF754F48373D16F1F73903 /* RVFakeUrlSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RVFakeUrlSession.h; path = RVHttp/lib/FakeUrlSession/RVFakeUrlSession.h; sourceTree = "<group>"; };
+		F1CD3F8952978BC32190830B76900624 /* libPods-soaplibTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-soaplibTests.a"; path = "libPods-soaplibTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87A75BEBA19023096A834E22BB43504 /* RVHttpFake.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RVHttpFake.h; path = RVHttp/lib/Fake/RVHttpFake.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B289D1FA0B9D9ED2DD8497E05A764D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEA02BB6DC4C1FD63F1F47C283F4EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56654AFCEF06F8BF34881E9ABDFB17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8BB8977808A52D0ED5B4C4FD77F88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDDD59E371FDF53A49DCF6E15EE58B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA5BAB68ADCD8A99372BB60D948E8CB /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				55FA23901330DB0942E7154AC58FB182 /* NSArray+Collection.h */,
+				C263BDA2CF3B6243FA15F53F66DB3993 /* NSArray+Collection.m */,
+				9DAF52A2C4D29484AB96A91C615896D4 /* NSArray+HighOrder.h */,
+				E60110670848F37F9D7270C8F55FB35F /* NSArray+HighOrder.m */,
+				32BBF7147771C7CC7A83D966E462993F /* NSCountedSet+Collection.h */,
+				DA69DF5F10243084166BCFE1509D3503 /* NSCountedSet+Collection.m */,
+				3CE8207F5982D48AF8964C5FCB3B8FCA /* NSDictionary+Collection.h */,
+				639B2569F715979989CE6EE08FE228EA /* NSDictionary+Collection.m */,
+				68E38400BFBE19676182DAC0A21750CB /* NSString+Collection.h */,
+				A9D1B40ADCF9A285E6022C51C86A4159 /* NSString+Collection.m */,
+				10D88E2172F1654981DE79320F77222C /* RVCollection.h */,
+				EFC67544395F5AA7826D4590F61E10FB /* Support Files */,
+			);
+			name = Collection;
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		235147268247E6BB0D74EFEFE5C2845B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BA5BAB68ADCD8A99372BB60D948E8CB /* Collection */,
+				C2F8A0796B39BA31B628230FFAC9C884 /* RVHttp */,
+				F5E00E0AA397D7BB33226EFB01D512F8 /* RVXMLDictionary */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F0EADE884E1CB02E9BF932FE7489524 /* Pods-soaplibTests */ = {
+			isa = PBXGroup;
+			children = (
+				D009EC637658A8BD4567988CE64FD1FB /* Pods-soaplibTests-acknowledgements.markdown */,
+				8B849B56797C26696D6B1DFF4488E5DF /* Pods-soaplibTests-acknowledgements.plist */,
+				4CD865977AE66EB11798F2516FF8E4C3 /* Pods-soaplibTests-dummy.m */,
+				ACD720B3E303BEDC654CE4DC5B5FA519 /* Pods-soaplibTests.debug.xcconfig */,
+				8F44A93A67579E156C215094D5897634 /* Pods-soaplibTests.release.xcconfig */,
+			);
+			name = "Pods-soaplibTests";
+			path = "Target Support Files/Pods-soaplibTests";
+			sourceTree = "<group>";
+		};
+		5BB64FEE3884AAB7FCBB201C09AABB83 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9504EF89DBC7272A6899EA46C47F8E8E /* Pods-soaplib */,
+				4F0EADE884E1CB02E9BF932FE7489524 /* Pods-soaplibTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		606936DE1C50838AB4919BD1255FC42F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C6AA7347D6F8656D58D9E15453A19A5 /* RVXMLDictionary.xcconfig */,
+				9A838C5681EF66680B8A19325367C0F7 /* RVXMLDictionary-dummy.m */,
+				AD19097E95CBD0BECA0DA4B19AC92EF0 /* RVXMLDictionary-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RVXMLDictionary";
+			sourceTree = "<group>";
+		};
+		9504EF89DBC7272A6899EA46C47F8E8E /* Pods-soaplib */ = {
+			isa = PBXGroup;
+			children = (
+				C2B2F6B8FB2D552D4D8FFD0A058BE0D5 /* Pods-soaplib-acknowledgements.markdown */,
+				DDC97B81B346735037E7442CCAADAEC9 /* Pods-soaplib-acknowledgements.plist */,
+				0219E0F779B7BCF3430AC226FFC735F1 /* Pods-soaplib-dummy.m */,
+				DE77B606E1259770C85606B1E3EAD994 /* Pods-soaplib.debug.xcconfig */,
+				EE225A111D2339B175D94EDF98B93E24 /* Pods-soaplib.release.xcconfig */,
+			);
+			name = "Pods-soaplib";
+			path = "Target Support Files/Pods-soaplib";
+			sourceTree = "<group>";
+		};
+		AB7165E525AD9E09EB82D3DA76F5EC39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B416BAE96F757407347C0CEA9B57DF2 /* RVHttp.xcconfig */,
+				66043DE64BCB86094FAE4A06FD0E0350 /* RVHttp-dummy.m */,
+				51E75C36B7D336053F8195A7C5DE0C2F /* RVHttp-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RVHttp";
+			sourceTree = "<group>";
+		};
+		C2F8A0796B39BA31B628230FFAC9C884 /* RVHttp */ = {
+			isa = PBXGroup;
+			children = (
+				EE6280834FDF754F48373D16F1F73903 /* RVFakeUrlSession.h */,
+				660D62BE59246B457FBB3A638A760AB8 /* RVFakeUrlSession.m */,
+				B9F68E8E6C3EBC99777E3CDBA313E1F5 /* RVFakeUrlSessionDataTask.h */,
+				BECB59F2CF8FBBE0526EAB27795EA527 /* RVFakeUrlSessionDataTask.m */,
+				1A82F6D39F0A06B465951ED1FA13A3A4 /* RVHttp.h */,
+				402D60E90DC57B40F0885A400CBA63D7 /* RVHttp.m */,
+				F87A75BEBA19023096A834E22BB43504 /* RVHttpFake.h */,
+				A73FEE2BC1CAB1ED4FD7BF8C3420D0BF /* RVHttpFake.m */,
+				95868E591C32B79D6B63E94E2E682238 /* RVHttpRequest.h */,
+				6CA72128247473CBB148B24BC5E1AA13 /* RVHttpRequest.m */,
+				4C96E491949F6299B4C03B599630DEAD /* RVHttpResponse.h */,
+				EDACEA99ADE06D30AC8FE5339E792B91 /* RVHttpResponse.m */,
+				AB7165E525AD9E09EB82D3DA76F5EC39 /* Support Files */,
+			);
+			name = RVHttp;
+			path = RVHttp;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				235147268247E6BB0D74EFEFE5C2845B /* Pods */,
+				F5B74C57B798292E0E1DDEED318BFB7C /* Products */,
+				5BB64FEE3884AAB7FCBB201C09AABB83 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC67544395F5AA7826D4590F61E10FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				544D89CD284F1BC4555DE506D55E5A36 /* Collection.xcconfig */,
+				DF1B9BB819B20FE699A4DB3E86A794F5 /* Collection-dummy.m */,
+				641FA9A3B8CB44DF8D8AF83AF045CB0C /* Collection-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Collection";
+			sourceTree = "<group>";
+		};
+		F5B74C57B798292E0E1DDEED318BFB7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CBB9CD859D6A1113692CCA7F0A3DAAC /* libCollection.a */,
+				0677D0CA9FB34D4A4484AEBCAD3BC7E6 /* libPods-soaplib.a */,
+				F1CD3F8952978BC32190830B76900624 /* libPods-soaplibTests.a */,
+				2EA156887D6D70C8D9A07780E612FC98 /* libRVHttp.a */,
+				A6CB0D66F0A8E2CD38206BE5955DC878 /* libRVXMLDictionary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E00E0AA397D7BB33226EFB01D512F8 /* RVXMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				6733C0E583501DC55CA2EFA236B55D31 /* XMLDictionary.h */,
+				DEF57B7FE4D1E46EFE481F871737CB39 /* XMLDictionary.m */,
+				606936DE1C50838AB4919BD1255FC42F /* Support Files */,
+			);
+			name = RVXMLDictionary;
+			path = RVXMLDictionary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A4C266DAE98B3F487FCB1A8D1287CFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53FCF24253FA0DCF7F5CE67476AA887 /* NSArray+Collection.h in Headers */,
+				0428B041DA25E60B9A3A066AE42646C4 /* NSArray+HighOrder.h in Headers */,
+				7E7E152AFAF1EFE91B84F5267F1EA42A /* NSCountedSet+Collection.h in Headers */,
+				7483673677356C1E2BE0D6A580F306FB /* NSDictionary+Collection.h in Headers */,
+				8FE20B79B030A92F3A3D25F0112A9107 /* NSString+Collection.h in Headers */,
+				72901004CF5D13198C2B54E6441BEE1D /* RVCollection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE17CAD1E48D4AA112970259D2E495A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AA8993264A03564152C984CB8BA97A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47400C3D2447C65C31B5D0DE6E25493 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DA1339A33D941DF05A90461DA8F631 /* XMLDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75E3E9FD8797A35664F28BFE77792B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B68F3AFD19D727A5EF031D53361A2E2 /* RVFakeUrlSession.h in Headers */,
+				A61F64D9DBFC06A2F7C5BD4B24B02248 /* RVFakeUrlSessionDataTask.h in Headers */,
+				64BAF6DA578E434C14EC15ADC8DA0093 /* RVHttp.h in Headers */,
+				5D607FE633B35AEB003EBDCD6FC4DE66 /* RVHttpFake.h in Headers */,
+				3B2DCBC44B17A4E1EA3DD0227C2ABA72 /* RVHttpRequest.h in Headers */,
+				1787DBFD59A5F3CEE5C1FD9DE185B3A5 /* RVHttpResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		264072C0A2355E7C36D3B2C8EAB09612 /* Collection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484230D6C62BAACFC0725C96FF76D6EC /* Build configuration list for PBXNativeTarget "Collection" */;
+			buildPhases = (
+				6A4C266DAE98B3F487FCB1A8D1287CFA /* Headers */,
+				74F637530D112C89B4B493DD6A468F2B /* Sources */,
+				EBDDD59E371FDF53A49DCF6E15EE58B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Collection;
+			productName = Collection;
+			productReference = 5CBB9CD859D6A1113692CCA7F0A3DAAC /* libCollection.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2C5AF8F7AB781764DD25905D0EC63204 /* RVHttp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958FF0C969EBE3CD38552A79E5A13990 /* Build configuration list for PBXNativeTarget "RVHttp" */;
+			buildPhases = (
+				F75E3E9FD8797A35664F28BFE77792B6 /* Headers */,
+				BD9B3C35A03DDB93F361BBB149B7AB7C /* Sources */,
+				DC8BB8977808A52D0ED5B4C4FD77F88C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56E7DD935E6CFB523BEF1811F43E7E5F /* PBXTargetDependency */,
+			);
+			name = RVHttp;
+			productName = RVHttp;
+			productReference = 2EA156887D6D70C8D9A07780E612FC98 /* libRVHttp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AACAD9F7A35CD20B13518D429CB12D0D /* Pods-soaplibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FE74EFE6FA465CADDB05E230C74F98 /* Build configuration list for PBXNativeTarget "Pods-soaplibTests" */;
+			buildPhases = (
+				ADE17CAD1E48D4AA112970259D2E495A /* Headers */,
+				3357EA95BE2D41CB5BE5CD160431C693 /* Sources */,
+				0B289D1FA0B9D9ED2DD8497E05A764D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-soaplibTests";
+			productName = "Pods-soaplibTests";
+			productReference = F1CD3F8952978BC32190830B76900624 /* libPods-soaplibTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBDB6B2B4A5C4CF6FCB626693A04E76E /* RVXMLDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CF985803E6BC5CF1AFC2EDC62643A3 /* Build configuration list for PBXNativeTarget "RVXMLDictionary" */;
+			buildPhases = (
+				E47400C3D2447C65C31B5D0DE6E25493 /* Headers */,
+				6929A84F6ECBF7B1DE0E11A494D5CB4B /* Sources */,
+				D56654AFCEF06F8BF34881E9ABDFB17B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVXMLDictionary;
+			productName = RVXMLDictionary;
+			productReference = A6CB0D66F0A8E2CD38206BE5955DC878 /* libRVXMLDictionary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF826C0F46206F6DEDC75B247F6428E1 /* Pods-soaplib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E667DBD4B0014E2262DA385FAAAEBA0 /* Build configuration list for PBXNativeTarget "Pods-soaplib" */;
+			buildPhases = (
+				B3AA8993264A03564152C984CB8BA97A /* Headers */,
+				5CCC509C364BEEC1E21C29B08E606274 /* Sources */,
+				ABEA02BB6DC4C1FD63F1F47C283F4EAE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11559279706B66DD29B63B67F6B0AAE3 /* PBXTargetDependency */,
+				3E26F52B442443D705153F5455AED87C /* PBXTargetDependency */,
+				F0AE492783B72686DAD74B03865C2567 /* PBXTargetDependency */,
+			);
+			name = "Pods-soaplib";
+			productName = "Pods-soaplib";
+			productReference = 0677D0CA9FB34D4A4484AEBCAD3BC7E6 /* libPods-soaplib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F5B74C57B798292E0E1DDEED318BFB7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264072C0A2355E7C36D3B2C8EAB09612 /* Collection */,
+				FF826C0F46206F6DEDC75B247F6428E1 /* Pods-soaplib */,
+				AACAD9F7A35CD20B13518D429CB12D0D /* Pods-soaplibTests */,
+				2C5AF8F7AB781764DD25905D0EC63204 /* RVHttp */,
+				CBDB6B2B4A5C4CF6FCB626693A04E76E /* RVXMLDictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3357EA95BE2D41CB5BE5CD160431C693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84765D9642A64844DD684695E1A9F5C7 /* Pods-soaplibTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCC509C364BEEC1E21C29B08E606274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A76934C8E8302C8698B6FAC38B4CD56 /* Pods-soaplib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6929A84F6ECBF7B1DE0E11A494D5CB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4E50C7DD76AB264A7A380ECEFA7701 /* RVXMLDictionary-dummy.m in Sources */,
+				B5C3039C91E2B4DE14515739980656FF /* XMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F637530D112C89B4B493DD6A468F2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4548DDCE9DBD8D68113882F0E143E7E0 /* Collection-dummy.m in Sources */,
+				C557750FC006B39B88753B590963D4D0 /* NSArray+Collection.m in Sources */,
+				B96026533D70CD452CFACDE61F373209 /* NSArray+HighOrder.m in Sources */,
+				3AB82560B139DD5EE7702776CFB00132 /* NSCountedSet+Collection.m in Sources */,
+				4ACD33ED74AE8AB6EC246ED408F83997 /* NSDictionary+Collection.m in Sources */,
+				E562F843FCE9972669F23F7CB2DF8D45 /* NSString+Collection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9B3C35A03DDB93F361BBB149B7AB7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1788E7511465624FD9834729C5565E9 /* RVFakeUrlSession.m in Sources */,
+				21E04462F6C7FAC9D24F52AC448DF386 /* RVFakeUrlSessionDataTask.m in Sources */,
+				D25DCFD4C9E9468A381E6F71644D930F /* RVHttp-dummy.m in Sources */,
+				35224F875FDE7CB21786B47C90C627E0 /* RVHttp.m in Sources */,
+				F5C3A96B0A945CF292BEEBA37F337396 /* RVHttpFake.m in Sources */,
+				E2EE78D39A05DAE014D6C528D6990DC8 /* RVHttpRequest.m in Sources */,
+				1CD5CCF767B105A4A538364261526816 /* RVHttpResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11559279706B66DD29B63B67F6B0AAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Collection;
+			target = 264072C0A2355E7C36D3B2C8EAB09612 /* Collection */;
+			targetProxy = 732FB2C96DF757B163D8BD3F41F6D288 /* PBXContainerItemProxy */;
+		};
+		3E26F52B442443D705153F5455AED87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RVHttp;
+			target = 2C5AF8F7AB781764DD25905D0EC63204 /* RVHttp */;
+			targetProxy = DA7A1F5C5B9A98EE648A7305E5A645DC /* PBXContainerItemProxy */;
+		};
+		56E7DD935E6CFB523BEF1811F43E7E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Collection;
+			target = 264072C0A2355E7C36D3B2C8EAB09612 /* Collection */;
+			targetProxy = C1930029E7001E5F8748B5F46C5CB299 /* PBXContainerItemProxy */;
+		};
+		F0AE492783B72686DAD74B03865C2567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RVXMLDictionary;
+			target = CBDB6B2B4A5C4CF6FCB626693A04E76E /* RVXMLDictionary */;
+			targetProxy = 26535585C95733FD95460EAAC7F47BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18A3642F99E439C205C30C0EF7A555BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE77B606E1259770C85606B1E3EAD994 /* Pods-soaplib.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B60EC842A6F68E1F190308EC70B2280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B416BAE96F757407347C0CEA9B57DF2 /* RVHttp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RVHttp/RVHttp-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RVHttp;
+				PRODUCT_NAME = RVHttp;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637098856F0AFAEF94B597015208A58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6AA7347D6F8656D58D9E15453A19A5 /* RVXMLDictionary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RVXMLDictionary/RVXMLDictionary-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RVXMLDictionary;
+				PRODUCT_NAME = RVXMLDictionary;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BEF629D97254C8B3F1D366586B6F35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544D89CD284F1BC4555DE506D55E5A36 /* Collection.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Collection/Collection-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Collection;
+				PRODUCT_NAME = Collection;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FDA8AD3DAB908C444162049BA61CFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544D89CD284F1BC4555DE506D55E5A36 /* Collection.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Collection/Collection-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Collection;
+				PRODUCT_NAME = Collection;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97C0AEF0B9F5A8ED1C6306C35065EE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE225A111D2339B175D94EDF98B93E24 /* Pods-soaplib.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A21CE1FB68559A4260D0D74EAF6FC836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F44A93A67579E156C215094D5897634 /* Pods-soaplibTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9ADB53255A57F0DFA3C841355DDF996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD720B3E303BEDC654CE4DC5B5FA519 /* Pods-soaplibTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6A361E051FF737337ADB3DC8550B3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B416BAE96F757407347C0CEA9B57DF2 /* RVHttp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RVHttp/RVHttp-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RVHttp;
+				PRODUCT_NAME = RVHttp;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C29D5C432ECEEF3D9D5A951CCC1511E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6AA7347D6F8656D58D9E15453A19A5 /* RVXMLDictionary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RVXMLDictionary/RVXMLDictionary-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RVXMLDictionary;
+				PRODUCT_NAME = RVXMLDictionary;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484230D6C62BAACFC0725C96FF76D6EC /* Build configuration list for PBXNativeTarget "Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEF629D97254C8B3F1D366586B6F35C /* Debug */,
+				7FDA8AD3DAB908C444162049BA61CFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E667DBD4B0014E2262DA385FAAAEBA0 /* Build configuration list for PBXNativeTarget "Pods-soaplib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3642F99E439C205C30C0EF7A555BA /* Debug */,
+				97C0AEF0B9F5A8ED1C6306C35065EE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CF985803E6BC5CF1AFC2EDC62643A3 /* Build configuration list for PBXNativeTarget "RVXMLDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637098856F0AFAEF94B597015208A58A /* Debug */,
+				C29D5C432ECEEF3D9D5A951CCC1511E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958FF0C969EBE3CD38552A79E5A13990 /* Build configuration list for PBXNativeTarget "RVHttp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A361E051FF737337ADB3DC8550B3DE /* Debug */,
+				5B60EC842A6F68E1F190308EC70B2280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FE74EFE6FA465CADDB05E230C74F98 /* Build configuration list for PBXNativeTarget "Pods-soaplibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADB53255A57F0DFA3C841355DDF996 /* Debug */,
+				A21CE1FB68559A4260D0D74EAF6FC836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
