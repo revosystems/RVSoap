@@ -1,11 +1,3 @@
-//
-//  RVSoapRequest.h
-//  RVPMS
-//
-//  Created by Jordi Puigdellívol on 14/4/17.
-//  Copyright © 2017 Revo. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import "RVSoapResponseParser.h"
 
@@ -32,6 +24,12 @@
 +(RVSoapRequest*)fromTemplate:(NSString*)filename;
 
 /**
+ * It creates a new request from an static filename.xml and it replaces the dynamic {{values}}.
+ */
++(RVSoapRequest*)fromTemplate:(NSString*)filename withValues:(NSDictionary*)values;
+
+
+/**
  Generates the request xml to be sent replacing action and content 
  */
 -(NSString*)build;
@@ -40,6 +38,11 @@
  Sets the action
  */
 -(RVSoapRequest*)withAction:(NSString*)action;
+
+/**
+ Sets the url
+ */
+-(RVSoapRequest*)withUrl:(NSString*)url;
 
 /**
  * Sets the body loaded from a template replacing the values

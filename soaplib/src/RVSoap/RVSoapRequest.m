@@ -20,12 +20,23 @@
 }
 
 +(RVSoapRequest*)fromTemplate:(NSString*)filename{
-    return [self.class make:[RVXml build:filename values:nil]];
+    return [self fromTemplate:filename withValues:nil];
+}
+
++(RVSoapRequest*)fromTemplate:(NSString*)filename withValues:(NSDictionary*)values{
+    return [self.class make:[RVXml build:filename values:values]];
 }
 
 -(NSString*)build{
-    NSString* result = [self.xml    replace:@"{{action}}"  with:self.action];
-    return             [result      replace:@"{{content}}" with:self.content];
+    NSString* result = self.xml;
+    if (self.action != nil) {
+        result = [result    replace:@"{{action}}"  with:self.action];
+    }
+    if (self.content != nil) {
+        result = [result    replace:@"{{content}}"  with:self.content];
+    }
+
+    return result;
 }
 
 -(RVSoapRequest*)withAction:(NSString*)action{
@@ -33,9 +44,13 @@
     return self;
 }
 
--(RVSoapRequest*)withUrl:(NSString*)url action:(NSString*)action andBody:(NSDictionary*)values{
+-(RVSoapRequest*)withUrl:(NSString*)url{
     self.url = url;
-    return [[self withAction:action] withBody:values];
+    return self;
+}
+
+-(RVSoapRequest*)withUrl:(NSString*)url action:(NSString*)action andBody:(NSDictionary*)values{
+    return [[[self withUrl:url] withAction:action] withBody:values];
 }
 
 -(RVSoapRequest*)withBodyTemplate:(NSString*)filename values:(NSDictionary*)values{
